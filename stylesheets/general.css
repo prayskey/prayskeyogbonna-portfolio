@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+body {
+  padding: 20px ;
+  background-color: rgb(1, 1, 31);
+  font-family:  'Roboto','Montserrat', sans-serif, Arial;
+  color: white;
+}
+@media (max-width: 810px){
+  body {
+    padding-top: 80px;
+  }
+}

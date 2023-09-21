@@ -1,0 +1,48 @@
+.Home-section {
+  
+}
+.logo {
+  position: relative;
+  width: 200px;
+  color: white;
+  font-weight: 800;
+  font-size: 45px;
+  opacity: 0;
+  animation: slideRight 1s ease forwards;
+}
+.header {
+  padding: 20px;
+  display: flex;
+  background-color: rgba(1, 1, 31, 0.952);
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+.header a{
+  font-size: 25px;
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  transition: color .4s;
+}
+.header a:hover, .menu-bar:hover {
+  color: aqua;
+}
+.navbar {
+  position: relative;
+  opacity: 0;
+  animation: slideTop .5s ease forwards;
+}
+@media (max-width: 810px){
+  .logo {
+    font-size: 30px;
+  }
+  .header a {
+    display: none;
+  }
+}
