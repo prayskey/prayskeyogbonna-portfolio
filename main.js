@@ -1,3 +1,5 @@
+body.style.width = screen.availWidth;
+
 var typed = new Typed('#element', {
   strings:["Frontend Developer", "Web Developer" , "Web Designer"],
   typeSpeed:100,
