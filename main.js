@@ -1,4 +1,4 @@
-body.style.width = screen.availWidth;
+body.style.width = screen.availWidth + "px";
 
 var typed = new Typed('#element', {
   strings:["Frontend Developer", "Web Developer" , "Web Designer"],
